@@ -26,8 +26,5 @@
     // 'visible' is a property of any class that inherits from CCNode. CCSprite is a subclass of CCNode, and Creature is a subclass of CCSprite, so Creatures have a visible property
     self.visible = _isAlive;
 }
-- (Creature *)creatureForTouchPosition:(CGPoint)touchPosition
-{
-    //get the row and column that was touched, return the Creature inside the corresponding cell
-}
+
 @end
