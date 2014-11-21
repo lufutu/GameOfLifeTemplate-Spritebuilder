@@ -8,7 +8,7 @@
 
 #import "Grid.h"
 #import "Creature.h"
-
+#import <UIKit/UIKit.h>
 // these are variables that cannot be changed
 static const int GRID_ROWS = 8;
 static const int GRID_COLUMNS = 10;
